@@ -12,8 +12,8 @@ Jarvis AI is a voice-activated assistant that can interact with users, respond t
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/jarvis-ai.git
-cd jarvis-ai
+git clone https://github.com/your-username/jarvis.git
+cd jarvis
 ```
 
 ### 2. Set Up a Virtual Environment
