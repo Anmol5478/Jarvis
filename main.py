@@ -145,7 +145,7 @@ if __name__ == "__main__":
             if f"open {app[0].lower()}" in query:
                 os.system(f"open {app[1]}")
 
-        if "play" in query and "on youtube" in query:
+        if "play" in query or "on youtube" in query:
             song_name = query.replace("play", "").replace("on youtube", "").strip()
             say(f"Playing {song_name} on YouTube, sir")
             pywhatkit.playonyt(song_name)
